@@ -3,7 +3,7 @@ import Spinner from 'react-bootstrap/Spinner';
 
 const QuestionLoading = () => {
     return (
-        <Spinner />
+        <Spinner animation="border" role="status" />
     );
 };
 
